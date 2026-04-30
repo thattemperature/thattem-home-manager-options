@@ -7,26 +7,26 @@
     with types;
     {
       thattem.home-manager = {
-        browser = mkEnableOption "browsers";
-        communication = mkEnableOption "communicate applications";
-        compression = mkEnableOption "compression tools";
-        connecting = mkEnableOption "network connection tools";
-        desktop = mkEnableOption "desktop environment";
-        dictionary = mkEnableOption "electronic dictionaries";
-        documenting = mkEnableOption "document editing tools";
-        editor = mkEnableOption "text editors";
-        finding = mkEnableOption "find file tools";
-        gaming = mkEnableOption "games";
-        graphics = mkEnableOption "picture editing tools ";
-        media = mkEnableOption "media players";
-        password = mkEnableOption "password managers";
-        programming = mkEnableOption "programming tools";
-        shell = mkEnableOption "shell configuration";
-        syncthing = mkEnableOption "syncthing sync tool";
-        system = mkEnableOption "system manage tools";
-        version = mkEnableOption "version control tools";
-        video = mkEnableOption "video editing tools";
-        virtual = mkEnableOption "virtual machines";
+        browser.enable = mkEnableOption "browsers";
+        communication.enable = mkEnableOption "communicate applications";
+        compression.enable = mkEnableOption "compression tools";
+        connecting.enable = mkEnableOption "network connection tools";
+        desktop.enable = mkEnableOption "desktop environment";
+        dictionary.enable = mkEnableOption "electronic dictionaries";
+        documenting.enable = mkEnableOption "document editing tools";
+        editor.enable = mkEnableOption "text editors";
+        finding.enable = mkEnableOption "find file tools";
+        gaming.enable = mkEnableOption "games";
+        graphics.enable = mkEnableOption "picture editing tools ";
+        media.enable = mkEnableOption "media players";
+        password.enable = mkEnableOption "password managers";
+        programming.enable = mkEnableOption "programming tools";
+        shell.enable = mkEnableOption "shell configuration";
+        syncthing.enable = mkEnableOption "syncthing sync tool";
+        system.enable = mkEnableOption "system manage tools";
+        version.enable = mkEnableOption "version control tools";
+        video.enable = mkEnableOption "video editing tools";
+        virtual.enable = mkEnableOption "virtual machines";
       };
     };
 
